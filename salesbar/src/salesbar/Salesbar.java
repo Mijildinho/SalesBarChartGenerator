@@ -22,7 +22,8 @@ public class Salesbar {
         Scanner scan = new Scanner(System.in);
         System.out.println("enter the first store's sales of the day.");
         int store1 = scan.nextInt();
-        for (int i = 0; i < store1; i++) {
+        int storesales = store1/100;
+        for (int i = 0; i < storesales; i++) {
             
             System.out.print("* ");
         }
@@ -30,29 +31,32 @@ public class Salesbar {
 
         System.out.println("enter the second store's sales of the day.");
         int store2 = scan.nextInt();
-        for (int j = 0; j < store2; j++) {
+        int storesales2= store2/100;
+        for (int j = 0; j < storesales2; j++) {
             System.out.print("* ");
         }
         System.out.println("");
 
         System.out.println("enter the third store's sales of the day.");
         int store3 = scan.nextInt();
-        for (int j = 0; j < store3; j++) {
+        int storesales3= store3/100;
+        for (int j = 0; j < storesales3; j++) {
             System.out.print("* ");
         }
         System.out.println("");
 
         System.out.println("enter the fourth store's sales of the day.");
         int store4 = scan.nextInt();
-        for (int j = 0; j < store4; j++) {
+        int storesales4= store4/100;
+        for (int j = 0; j < storesales4; j++) {
             System.out.print("* ");
         }
         System.out.println("");
 
         System.out.println("enter the fifth first store's sales of the day.");
         int store5 = scan.nextInt();
-
-        for (int j = 0; j < store5; j++) {
+        int storesales5 = store5/100;
+        for (int j = 0; j < storesales5; j++) {
             System.out.print("* ");
         }
         System.out.println("");
